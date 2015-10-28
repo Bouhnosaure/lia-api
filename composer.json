@@ -6,7 +6,13 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*"
+        "laravel/framework": "5.1.*",
+        "predis/predis": "^1.0",
+        "codeception/codeception": "*",
+        "dingo/api": "0.10.*",
+        "tymon/jwt-auth": "0.5.*",
+        "bcncommerce/json-stream": "^0.3.0",
+        "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
